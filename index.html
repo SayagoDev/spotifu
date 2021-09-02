@@ -25,6 +25,40 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quidem provident natus ex, quam repellat minus perferendis. Velit, labore? Quaerat, ea voluptate? Assumenda et atque dolore accusantium facilis pariatur dolorem.</p>
+  <!-- Player Controls -->
+  <div class="playerControls">
+    <!-- Player Controls Buttons -->
+    <div class="playerControls-buttons">
+      <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+        <i class="icon-prev" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+        <i class="icon-play" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+        <i class="icon-next" aria-hidden="true"></i>
+      </button>
+    </div>
+    <!-- Player Playback -->
+    <div class="playerPlayback">
+      <span class="playerPlayback-progressTime">01:40</span>
+      <div class="playerPlayback-slider">
+        <!-- Slider -->
+        <div class="slider">
+          <div class="slider-progress">
+            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+          </div>
+        </div>
+      </div>
+      <span class="playerPlayback-progressTime">03:25</span>
+    </div>
+  </div>
+  <!-- Player Volumen -->
+  <div class="playerVolumen">
+
+  </div>
+
   <!-- Sidebar -->
   <div class="sidebar">
     <!-- Header Logo -->
@@ -37,13 +71,13 @@
     <nav class="menu" aria-label="Principal">
       <ul class="menu-list">
         <li class="menuItem is-active">
-          <a href="/" class="link" aria-current="page">
+          <a href="./" class="link" aria-current="page">
             <i class="icon-home" aria-hidden="true"></i>
             <span>Inicio</span>
           </a>
         </li>
         <li class="menuItem">
-          <a href="/" class="link">
+          <a href="./" class="link">
             <i class="icon-search" aria-hidden="true"></i>
             <span>Buscar</span>
           </a>
@@ -165,11 +199,5 @@
     </nav>
   </div>
 
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
 </body>
 </html>
