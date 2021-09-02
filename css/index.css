@@ -8,6 +8,8 @@
 @import './slider.css';
 @import './player-controls.css';
 @import './player-playback.css';
+@import './player-volume.css';
+@import './player.css';
 
 :root {
   --primaryColor: #00B050;
