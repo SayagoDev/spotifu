@@ -4,6 +4,7 @@
 @import './link.css';
 @import './button-icon.css';
 @import './sidebar.css';
+@import './ellipsis.css';
 
 :root {
   --primaryColor: #00B050;
