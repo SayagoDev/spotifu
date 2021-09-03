@@ -20,6 +20,10 @@
   transform: translateY(0);
 }
 
+.playlistA .playlistA-cover button:active {
+  transform: scale(.90);
+}
+
 .playlistA-cover img {
   vertical-align: middle;
   inline-size: 100%;
