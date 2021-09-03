@@ -9,11 +9,16 @@
   block-size:  1.875rem;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .navigation button:disabled {
   opacity: .5;
   cursor: not-allowed;
+}
+
+.navigation button:active {
+  transform: scale(.9);
 }
 
 .navigation-prev i {
