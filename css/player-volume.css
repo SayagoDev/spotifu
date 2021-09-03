@@ -6,4 +6,5 @@
 .playerVolume-slider {
   flex: 1;
   inline-size: 6rem;
+  padding-inline-start: .5rem;
 }

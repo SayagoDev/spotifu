@@ -27,3 +27,15 @@
   font: var(--small);
   text-decoration: none;
 }
+
+.nowPlaying-actions .player-control {
+  transition: .3s transform, .3s color;
+}
+
+.nowPlaying-actions .player-control:active {
+  transform: scale(.9);
+}
+
+.nowPlaying-actions .player-control:hover{
+  color: var(--primaryColor);
+}
