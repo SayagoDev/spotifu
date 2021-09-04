@@ -3,6 +3,10 @@
   align-items: center;
 }
 
+.playerVolume button:hover {
+  color: var(--white);
+}
+
 .playerVolume-slider {
   flex: 1;
   inline-size: 6rem;
