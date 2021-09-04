@@ -1,6 +1,6 @@
 @font-face {
   font-family: Avenir;
-  src: url('../fonts/AvenirLTStd-Black.otf');
+  src: url('../../fonts/AvenirLTStd-Black.otf');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Avenir;
-  src: url('../fonts/AvenirLTStd-Roman.otf');
+  src: url('../../fonts/AvenirLTStd-Roman.otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
