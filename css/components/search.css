@@ -11,7 +11,8 @@
   block-size: 1rem;
   left: .5rem;
   top: calc(50% - .5rem);
-  color: var(--gray10);
+  color: var(--gray40);
+  pointer-events: none;
 }
 
 .search:focus-within i {

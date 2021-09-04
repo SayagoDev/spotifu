@@ -1,0 +1,30 @@
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  inline-size: 9rem;
+  block-size: 2.4rem;
+  border-radius: 1rem;
+  padding: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-name {
+  font: var(--baseFont);
+  margin-inline-end: .3rem;
+}
+
+.profile i {
+  position: absolute;
+  font-size: .6rem;
+  left: 85%;
+  top: 1rem;
+}

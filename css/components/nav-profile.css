@@ -1,0 +1,21 @@
+@import './profile.css';
+@import './sub-level.css';
+
+.navProfile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  inline-size: 12.5rem;
+}
+
+.navProfile .profile {
+  align-self: flex-end;
+}
+
+.navProfile:focus-within > .subLevel {
+  display: flex;
+}
+
+.navProfile .subLevel {
+  display: none;
+}

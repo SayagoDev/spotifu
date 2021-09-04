@@ -1,0 +1,27 @@
+.subLevel {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  inline-size: 10rem;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background: var(--gray60);
+  padding: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-block-start: .5rem;
+}
+
+.subLevel-item a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  font: var(--baseFont);
+  transition: .2s background;
+}
+
+.subLevel-item a:hover {
+  background: var(--gray20);
+  border-radius: 2px;
+}
