@@ -1,14 +1,14 @@
-@import './icons.css';
-@import './fonts.css';
-@import './body.css';
-@import './link.css';
-@import './button-icon.css';
-@import './sidebar.css';
-@import './ellipsis.css';
-@import './player.css';
-@import './page.css';
-@import './layout.css';
-@import './scrollbar.css';
+@import './components/icons.css';
+@import './components/fonts.css';
+@import './components/body.css';
+@import './components/link.css';
+@import './components/button-icon.css';
+@import './components/sidebar.css';
+@import './components/ellipsis.css';
+@import './components/player.css';
+@import './components/page.css';
+@import './components/layout.css';
+@import './components/scrollbar.css';
 
 :root {
   font-size: 12px;

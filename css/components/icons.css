@@ -15,11 +15,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?rmb7be');
-  src:  url('../fonts/icomoon.eot?rmb7be#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?rmb7be') format('truetype'),
-    url('../fonts/icomoon.woff?rmb7be') format('woff'),
-    url('../fonts/icomoon.svg?rmb7be#icomoon') format('svg');
+  src:  url('../../fonts/icomoon.eot?rmb7be');
+  src:  url('../../fonts/icomoon.eot?rmb7be#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?rmb7be') format('truetype'),
+    url('../../fonts/icomoon.woff?rmb7be') format('woff'),
+    url('../../fonts/icomoon.svg?rmb7be#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
