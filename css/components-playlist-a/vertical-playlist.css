@@ -1,8 +1,7 @@
 .verticalPlaylist {
   display: flex;
   align-items: center;
-  inline-size: 67.93rem;
-  block-size: 2.75rem;
+  inline-size: 100%;
   padding: 0;
 }
 

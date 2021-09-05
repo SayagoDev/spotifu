@@ -1,4 +1,10 @@
+@import './playlist-description.css';
+
 .playlistDescriptionFather {
-  border: 1px solid red;
-  inline-size: 100%;
+  display: flex;
+  /* inline-size: 70rem; */
+  block-size: 20rem;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
 }

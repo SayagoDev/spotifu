@@ -3,6 +3,7 @@
   position: relative;
   flex: 1;
   border-radius: 4px;
+  margin-block-end: 2.4rem;
   transition: .3s background ease-in-out;
 }
 

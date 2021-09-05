@@ -1,0 +1,7 @@
+.page {
+  inline-size: calc(100vw - 20rem);
+  background-image: linear-gradient(181deg, rgba(40,40,40,0.053658963585434205) 0%, rgba(24,24,24,0.8799894957983193) 24%, rgba(18,18,18,1) 47%), url('../../images/girl-green.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+}
