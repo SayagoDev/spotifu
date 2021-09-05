@@ -1,3 +1,5 @@
+@import './vertical-section-interactive.css';
+
 .songContainer {
   position: relative;
   inline-size: 100%;
