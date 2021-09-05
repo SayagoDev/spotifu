@@ -1,0 +1,21 @@
+.page {
+  inline-size: calc(100vw - 20rem);
+}
+
+.page-block .veticalPlaylistContainer {
+  margin: 0;
+}
+
+.page-block .headerDetails {
+  inline-size: 100%;
+  justify-content: space-between;
+}
+
+.page-block .songContainer {
+  inline-size: 100%;
+  justify-content: space-between;
+}
+
+.page-block .verticalPlaylist {
+  /* justify-content: space-between; */
+}

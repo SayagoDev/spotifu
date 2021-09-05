@@ -1,0 +1,23 @@
+.descriptionContainer {
+  display: flex;
+  gap: 1.5rem;
+  margin-inline-start: .8rem;
+}
+
+.descriptionContainer img {
+  inline-size: 19.5rem;
+  block-size: auto;
+}
+
+.descriptionContainer .playlistDescriptionFather {
+  margin: 0;
+  block-size: 9.5rem;
+}
+
+.descriptionContainer .playlistDescription {
+  align-items: flex-start;
+}
+
+.descriptionContainer p {
+  text-align: start;
+}

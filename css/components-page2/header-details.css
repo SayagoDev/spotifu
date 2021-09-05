@@ -3,6 +3,7 @@
   align-items: center;
   inline-size: 67.93rem;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .headerDetails > * {
@@ -13,20 +14,24 @@
 }
 
 .headerDetails-title {
-  inline-size: 20rem;
+  /* inline-size: 20rem; */
+  inline-size: 18rem;
   margin-inline-start: 5.125rem;
 }
 
 .headerDetails-artist {
-  inline-size: 17rem;
+  /* inline-size: 17rem; */
+  inline-size: 15.4rem;
 }
 
 .headerDetails-album {
-  inline-size: 17rem;
+  /* inline-size: 17rem; */
+  inline-size: 15.2rem;
 }
 
 .headerDetails-calendar {
-  inline-size: 5.625rem;
+  /* inline-size: 5.625rem; */
+  inline-size: 5rem;
 }
 
 .headerDetails-clock {

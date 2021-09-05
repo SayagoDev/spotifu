@@ -1,0 +1,5 @@
+.verticalSectionInteractive {
+  position: absolute;
+  display: flex;
+  inline-size: 5rem;
+}
