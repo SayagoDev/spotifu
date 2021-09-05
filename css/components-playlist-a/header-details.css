@@ -1,0 +1,35 @@
+.headerDetails {
+  display: flex;
+  align-items: center;
+  inline-size: 67.93rem;
+  block-size: 2.75rem;
+  padding: 0;
+}
+
+.headerDetails > * {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding: 0.625rem;
+  font: var(--subtitle);
+}
+
+.headerDetails-title {
+  inline-size: 20rem;
+  margin-inline-start: 5.125rem;
+}
+
+.headerDetails-artist {
+  inline-size: 17rem;
+}
+
+.headerDetails-album {
+  inline-size: 17rem;
+}
+
+.headerDetails-calendar {
+  inline-size: 5.625rem;
+}
+
+.headerDetails-clock {
+  inline-size: 3rem;
+}

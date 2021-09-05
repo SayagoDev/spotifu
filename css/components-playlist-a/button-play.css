@@ -1,0 +1,17 @@
+.buttonPlay {
+  inline-size: 9.56rem;
+  block-size: 2rem;
+  padding: .4rem 2rem;
+  text-transform: uppercase;
+  font: var(--button);
+  background: var(--primaryColor);
+  border: none;
+  border-radius: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+  transition: .2s transform;
+}
+
+.buttonPlay:active {
+  transform: scale(.95);
+}

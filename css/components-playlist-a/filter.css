@@ -1,0 +1,63 @@
+.filter {
+  max-inline-size: 31.25rem;
+  position: relative;
+  flex: 1;
+  border-radius: 4px;
+  transition: .3s background ease-in-out;
+}
+
+.filter .filter-search {
+  position: absolute;
+  font-size: 1rem;
+  block-size: 1rem;
+  left: .5rem;
+  top: calc(50% - .5rem);
+  color: var(--white);
+  pointer-events: none;
+}
+
+.filter input {
+  font: var(--button);
+  color: var(--white);
+  border-radius: 1.25rem;
+  border: none;
+  max-inline-size: 31.25rem;
+  inline-size: 31.25rem;
+  padding: .5rem;
+  padding-inline-start: 2rem;
+  background: transparent;
+  outline: none;
+  transition: .3s color ease-in-out;
+}
+
+.filter input::-webkit-input-placeholder {
+  color: var(--gray10);
+}
+
+.filter:focus-within input::-webkit-input-placeholder {
+  color: var(--white);
+}
+
+.filter:focus-within {
+  background: var(--gray20);
+}
+
+.filter:focus-within .filter-close {
+  opacity: 1;
+}
+
+.filter .filter-close {
+  opacity: 0;
+  position: absolute;
+  font-size: .875rem;
+  block-size: .875rem;
+  right: .6rem;
+  top: calc(50% - .5rem);
+  color: var(--white);
+  pointer-events: none;
+  transition: .3s opacity ease-in-out;
+}
+
+.filter input::-webkit-search-cancel-button {
+  opacity: 0;
+}

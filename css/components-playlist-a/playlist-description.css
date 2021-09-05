@@ -1,0 +1,23 @@
+.playlistDescription-container {
+  display: inline-block;
+}
+
+.playlistDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.playlistDescription h1 {
+  font: var(--headline1);
+  color: var(--white);
+  margin: 0;
+}
+
+.playlistDescription p {
+  font: var(--baseFont);
+  color: var(--white);
+  text-align: center;
+  margin: 0;
+}
