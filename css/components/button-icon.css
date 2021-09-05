@@ -8,6 +8,12 @@
   color: var(--gray10);
 }
 
+.buttonIcon.is-small {
+  inline-size: 24px;
+  block-size: 24px;
+  border: 1px solid var(--white);
+}
+
 .buttonIcon.is-white {
   background: var(--white);
   color: var(--gray50);
@@ -18,11 +24,22 @@
   color: var(--white);
 }
 
+.buttonIcon.is-transparent {
+  background: transparent;
+  color: var(--white);
+}
+
 .buttonIcon .icon-play {
   position: relative;
   left: 1px;
   top: 1px;
   font-size: 1rem;
+}
+
+.buttonIcon .icon-play.is-small {
+  left: 1.3px;
+  top: -.7px;
+  font-size: 9px;
 }
 
 .buttonIcon:active {

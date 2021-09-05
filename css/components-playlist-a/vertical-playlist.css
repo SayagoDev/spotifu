@@ -1,0 +1,64 @@
+.verticalPlaylist {
+  display: flex;
+  align-items: center;
+  inline-size: 67.93rem;
+  block-size: 2.75rem;
+  padding: 0;
+}
+
+.verticalPlaylist > * {
+  /* box-shadow: inset 0 0 0 1px red; */
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding: 0.625rem;
+  color: var(--white);
+}
+
+.verticalPlaylist-play {
+  inline-size: 2.75rem;
+  text-align: center;
+  padding: 0;
+}
+
+.verticalPlaylist-heart {
+  position: relative;
+  top: 2px;
+  inline-size: 2.4rem;
+  text-align: center;
+  padding: 0;
+}
+
+.verticalPlaylist-heart button {
+  font-size: 18px;
+}
+
+.verticalPlaylist button {
+  color: var(--white);
+  transition: .3s color ease-in-out;
+}
+
+.verticalPlaylist-heart button:hover {
+  color: var(--primaryColor);
+}
+
+.verticalPlaylist-title  {
+  inline-size: 18rem;
+}
+
+.verticalPlaylist-artist {
+  inline-size: 15.4rem;
+}
+
+.verticalPlaylist-album {
+  inline-size: 15.2rem;
+}
+
+.verticalPlaylist-date {
+  inline-size: 5rem;
+  color: var(--gray10);
+}
+
+.verticalPlaylist-time {
+  inline-size: 3rem;
+  color: var(--gray10);
+}
