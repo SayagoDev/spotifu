@@ -1,6 +1,28 @@
+@import './components/icons.css';
+@import './components/fonts.css';
+@import './components/body.css';
+@import './components/link.css';
+@import './components/button-icon.css';
+@import './components/sidebar.css';
+@import './components/ellipsis.css';
+@import './components/player.css';
+@import './components/page.css';
+@import './components/layout.css';
+@import './components/scrollbar.css';
+@import './components/root.css';
 @import './components-page2/playlist-description-father.css';
 @import './components-page2/vertical-playlist-container.css';
 @import './components-page2/page.css';
+
+#carga {
+  position: fixed;
+  background-color: var(--gray50);
+  inline-size: 100%;
+  block-size: 100%;
+  z-index: 1000;
+  transition: all 1s ease-out;
+}
+
 
 @media screen and (max-width: 1210px) {
   .page {
