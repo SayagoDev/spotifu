@@ -1,6 +1,6 @@
-@import './components-playlist-a/playlist-description-father.css';
-@import './components-playlist-a/vertical-playlist-container.css';
-@import './components-playlist-a/page.css';
+@import './components-page2/playlist-description-father.css';
+@import './components-page2/vertical-playlist-container.css';
+@import './components-page2/page.css';
 
 @media screen and (max-width: 1210px) {
   .page {
