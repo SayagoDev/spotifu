@@ -45,7 +45,8 @@
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 </head>
-<body class="body">
+<body class="body"">
+  <div id="carga"></div>
   <div class="layout">
     <div class="layout-block">
       <div class="layout-sidebar">
@@ -1042,5 +1043,12 @@
       </footer>
     </div>
   </div>
+  <script>
+    window.onload = function() {
+      let carga = document.getElementById('carga')
+      carga.style.visibility = 'hidden'
+      carga.style.opacity = '0'
+    }
+  </script>
 </body>
 </html>

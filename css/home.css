@@ -30,6 +30,15 @@
   --small: normal .65em/normal var(--baseFontFamily);
 }
 
+#carga {
+  position: fixed;
+  background-color: var(--gray50);
+  inline-size: 100%;
+  block-size: 100%;
+  z-index: 1000;
+  transition: all 1s ease-out;
+}
+
 @media screen and (min-width: 768px) {
   :root {
     font-size: 14px;
