@@ -30,8 +30,9 @@
 }
 
 .buttonIcon.is-transparent {
-  background: transparent;
+  background: rgba(23,23,23,.5);
   color: var(--white);
+  border: 1px solid var(--white);
 }
 
 .buttonIcon .icon-play {

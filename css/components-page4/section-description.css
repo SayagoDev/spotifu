@@ -8,3 +8,30 @@
   inline-size: 14.5rem;
   block-size: 14.5rem;
 }
+
+.sectionDescription .background {
+  position: absolute;
+  inline-size: 14.5rem;
+  block-size: 14.5rem;
+  transition: .3s background;
+}
+
+.sectionDescription button {
+  position: absolute;
+  top: calc(50% - 1.75rem);
+  left: calc(50% - 1.75rem);
+  opacity: 0;
+  will-change: opacity;
+  transition: .3s opacity;
+  touch-action: none;
+}
+
+.sectionDescription .containerImage:hover .background,
+.sectionDescription .containerImage:focus-within .background {
+  background: rgba(0, 0, 0, .6);
+}
+
+.sectionDescription .containerImage:hover button,
+.sectionDescription .containerImage:focus-within button {
+  opacity: 1;
+}

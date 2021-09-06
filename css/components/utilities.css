@@ -9,3 +9,11 @@
 .u-noMargin {
   margin: 0 !important;
 }
+
+.u-relative {
+  position: relative;
+}
+
+.u-noShadow {
+  box-shadow: none !important;
+}
