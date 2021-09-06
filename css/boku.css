@@ -4,6 +4,11 @@
 @import './components/utilities.css';
 @import './components/root.css';
 
+body {
+  position: fixed;
+  inline-size: 100%;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -27,7 +32,7 @@ h1 {
   inline-size: 700px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   font: var(--headline1);
   font-size: 80px;
