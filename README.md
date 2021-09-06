@@ -1,5 +1,5 @@
 # Spotifu
-Spotifu, un clon de Spotify para aprender de manera didáctica Flexbox.
+Spotifu, un clon de Spotify para aprender de manera didáctica Flexbox y accesibilidad web.
 Este proyecto fue creado utilizando una metodología basada en componentes.
 
 **🔴Live:** https://sayagodev.github.io/spotifu/ <br>
@@ -10,6 +10,15 @@ pero funciona sin problemas en resolución de tables. 💻 _**> 700px.**_
 ### Imágenes del proyecto:
 
 [![Index del proyecto](https://i.imgur.com/Yq3MQFI.png)](https://imgur.com/Yq3MQFI)
+[![Index score](https://i.imgur.com/6KBcDLu.png)](https://imgur.com/6KBcDLu)
+[![Página 1 del proyecto](https://i.imgur.com/bWYwht3.png)](https://imgur.com/bWYwht3)
+[![Página 1 score](https://i.imgur.com/ervMJNl.png)](https://imgur.com/ervMJNl)
+[![Página 2 del proyecto](https://i.imgur.com/CidTDLU.png)](https://imgur.com/CidTDLU)
+[![Página 2 score](https://i.imgur.com/F2lyZrK.png)](https://imgur.com/F2lyZrK)
+[![Página 3 del proyecto](https://i.imgur.com/h2PMVon.png)](https://imgur.com/h2PMVon)
+[![Página 3 score](https://i.imgur.com/Peo47yQ.png)](https://imgur.com/Peo47yQ)
+[![Página 4 del proyecto](https://i.imgur.com/OXQ4bJB.png)](https://imgur.com/OXQ4bJB)
+[![Página 4 score](https://i.imgur.com/w10HlAX.png)](https://imgur.com/w10HlAX)
 
 ### Agradecimientos:
 Mi total admiración y respeto a [Leonidas][leonidas], quien fue el responsable de enseñarme
