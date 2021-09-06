@@ -23,5 +23,5 @@
   inline-size: 100%;
   block-size: 100%;
   z-index: 1000;
-  transition: all 1s ease-out;
+  transition: all .2s ease-out;
 }
