@@ -2,9 +2,9 @@
 Spotifu, un clon de Spotify para aprender de manera didáctica Flexbox y accesibilidad web.
 Este proyecto fue creado utilizando una metodología basada en componentes.
 
-**🔴Live:** https://sayagodev.github.io/spotifu/ <br>
+**🔴 Live:** https://sayagodev.github.io/spotifu/ <br>
 
-**⚠️Warning:** El proyecto no esta enfocado en ser _**100%**_ _responsive_,
+**⚠️ Warning:** El proyecto no esta enfocado en ser _**100%**_ _responsive_,
 pero funciona sin problemas en resolución de tables. 💻 _**> 700px.**_
 
 ### Imágenes del proyecto:
@@ -32,7 +32,7 @@ pero funciona sin problemas en resolución de tables. 💻 _**> 700px.**_
 
 ### Agradecimientos:
 Mi total admiración y respeto a [Leonidas][leonidas], quien fue el responsable de enseñarme
-todo lo que he aplicado en este proyecto. Gracias a su maravilloso curso: [Curso de Flexbox Layout y Componentes][curso].
+todo lo que he aplicado en este proyecto. A través de su maravilloso curso: [Curso de Flexbox Layout y Componentes][curso].
 
 [index]:https://bro.com "https://bro.com"
 [leonidas]:https://leonidasesteban.com/ "https://leonidasesteban.com/"
