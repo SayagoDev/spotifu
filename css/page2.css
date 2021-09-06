@@ -8,6 +8,7 @@
 @import './components/player.css';
 @import './components/page.css';
 @import './components/layout.css';
+@import './components/utilities.css';
 @import './components/scrollbar.css';
 @import './components/root.css';
 @import './components-page2/playlist-description-father.css';

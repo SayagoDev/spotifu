@@ -2,14 +2,11 @@
 @import './components/fonts.css';
 @import './components/body.css';
 @import './components/link.css';
-@import './components/button-icon.css';
+@import './components-page2/button-play.css';
 @import './components/sidebar.css';
-@import './components/ellipsis.css';
-@import './components/player.css';
+@import './components/utilities.css';
 @import './components/page.css';
 @import './components/layout.css';
-@import './components/utilities.css';
-@import './components/scrollbar.css';
 @import './components/root.css';
 
 #carga {
@@ -19,4 +16,11 @@
   block-size: 100%;
   z-index: 1000;
   transition: all 1s ease-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .layout-main h1 {
+    top: calc(50% - 4rem);
+    left: calc(50% - 20rem);
+  }
 }

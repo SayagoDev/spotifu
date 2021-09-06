@@ -1,0 +1,43 @@
+@import './components/fonts.css';
+@import './components/body.css';
+@import './components-page2/button-play.css';
+@import './components/utilities.css';
+@import './components/root.css';
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-block-start: 1rem;
+  margin-inline-end: 1rem;
+}
+
+.image {
+  position: relative;
+  inline-size: 748px;
+  block-size: 816px;
+  margin: 0 auto;
+}
+
+img {
+  inline-size: 748px;
+  block-size: 816px;
+}
+
+h1 {
+  inline-size: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: var(--headline1);
+  font-size: 80px;
+}
+
+.t-shadow {
+  text-shadow: 7px 7px var(--primaryColor);
+  color: var(--white);
+}
+
+@media screen and (max-width: 810px) {
+
+}

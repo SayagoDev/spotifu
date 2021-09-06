@@ -23,6 +23,10 @@
   /* margin-block-end: .5rem; */
 }
 
+.list-item span {
+  color: var(--primaryColor);
+}
+
 /* .list-item:last-child {
   margin-block-end: 0;
 } */

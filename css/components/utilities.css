@@ -1,9 +1,17 @@
 .u-gap48 {
- gap: 3rem;
+ gap: 3rem !important;
 }
 
 .u-sizeM {
-  font-size: 1.125rem;
+  font-size: 1.125rem !important;
+}
+
+.u-bold {
+  font: var(--baseFontBold) !important;
+}
+
+.u-inline11 {
+  inline-size: 11rem !important;
 }
 
 .u-noMargin {
@@ -11,9 +19,37 @@
 }
 
 .u-relative {
-  position: relative;
+  position: relative !important;
 }
 
 .u-noShadow {
   box-shadow: none !important;
+}
+
+.u-spaceB {
+  justify-content: space-between !important;
+}
+
+.u-noBlur {
+  backdrop-filter: none !important;
+}
+
+.u-inline100 {
+  inline-size: 100% !important;
+}
+
+.u-centrar {
+  position: absolute;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  top: calc(50% - 4rem);
+  left: calc(50% - 27rem);
+}
+
+.u-inline {
+  display: inline;
+}
+
+.u-jRight {
+  justify-content: right !important;
 }
