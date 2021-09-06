@@ -1,0 +1,18 @@
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  inline-size: 51.25rem;
+}
+
+.descriptionContainer p {
+  font: var(--smallFont);
+  color: var(--white);
+  margin: 0;
+}
+
+.descriptionContainer h1 {
+  font: var(--headline1);
+  color: var(--white);
+  margin: 0;
+}

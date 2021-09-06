@@ -37,3 +37,33 @@
 .headerDetails-clock {
   inline-size: 3rem;
 }
+
+/* Page 4 */
+.headerDetails.is-page4 {
+  border-bottom: 1px solid var(--gray20);
+}
+
+.headerDetails-title.is-page4 {
+  margin-inline-start: .8rem;
+}
+
+.headerDetails-title.is-page4:before {
+  content: '#';
+  margin-inline-end: 1.5rem;
+  font: var(--subtitle);
+  font-size: 1rem;
+}
+
+.headerDetails-album.is-page4 {
+  inline-size: 10rem;
+}
+
+.headerDetails-calendar.is-page4 {
+  inline-size: 9rem;
+}
+
+.headerDetails.is-page4 {
+  color: var(--white);
+  inline-size: 100%;
+  justify-content: space-between;
+}

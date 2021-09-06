@@ -6,7 +6,6 @@
 }
 
 .verticalPlaylist > * {
-  /* box-shadow: inset 0 0 0 1px red; */
   margin-block-end: 0;
   margin-block-start: 0;
   padding: 0.625rem;
@@ -60,4 +59,22 @@
 .verticalPlaylist-time {
   inline-size: 3rem;
   color: var(--gray10);
+}
+
+/* Page 4 */
+.verticalPlaylist-title.is-page4 {
+  inline-size: 22rem;
+}
+
+.verticalpage2lbum.is-page4 {
+  inline-size: 10rem;
+}
+
+.verticalPlaylist-date.is-page4 {
+  inline-size: 9rem;
+  color: var(--white);
+}
+
+.verticalPlaylist-time.is-page4 {
+  color: var(--white);
 }

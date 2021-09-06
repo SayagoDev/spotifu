@@ -1,0 +1,10 @@
+.sectionDescription {
+  display: flex;
+  align-items: flex-end;
+  gap: .625rem;
+}
+
+.sectionDescription img {
+  inline-size: 14.5rem;
+  block-size: 14.5rem;
+}

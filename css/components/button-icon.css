@@ -14,6 +14,11 @@
   border: 1px solid var(--white);
 }
 
+.buttonIcon.is-big {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+}
+
 .buttonIcon.is-white {
   background: var(--white);
   color: var(--gray50);
@@ -40,6 +45,12 @@
   left: 1.3px;
   top: -.7px;
   font-size: 9px;
+}
+
+.buttonIcon .icon-play.is-big {
+  left: 2px;
+  top: 1px;
+  font-size: 1.5rem;
 }
 
 .buttonIcon:active {
