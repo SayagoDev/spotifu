@@ -7,6 +7,11 @@ Este proyecto fue creado utilizando una metodología basada en componentes.
 **⚠️ Warning:** El proyecto no esta enfocado en ser _**100%**_ _responsive_,
 pero funciona sin problemas en resolución de tables. 💻 _**> 700px.**_
 
+### TODO:
+
+- [ ] Refactorizar el código CSS.
+- [ ] Agregar una ventana modal que actué como formulario de inicio de sesión.
+
 ### Imágenes del proyecto:
 
 ### Index:
